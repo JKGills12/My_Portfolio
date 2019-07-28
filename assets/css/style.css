@@ -40,6 +40,15 @@ h1{
     border-bottom: 3px solid;
 }
 
+h3 {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.friendsImg, .gemImg, .plateMateImg, .trainImg {
+    width: 350px;
+    height: 275px;
+}
 #contact ul{
     padding:0;
     list-style: none;
