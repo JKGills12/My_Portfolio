@@ -11,7 +11,7 @@ body{
     width:960px;
     margin-left:225px;
     margin:0 auto;
-    background: url(images/60.-Zircon.jpg);
+    background: url(../images/Zircon.jpg);
     background-size: cover;
 }
 
@@ -27,7 +27,9 @@ body{
 
 .profileImg {
     width: 275px;
-    height: 375px;
+    height: 325px;
+    border-radius: 50%;
+    box-shadow: 0 8px 8px 0;
 }
 
 h1{
@@ -45,10 +47,13 @@ h3 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
 }
+
 .friendsImg, .gemImg, .plateMateImg, .trainImg {
     width: 350px;
     height: 275px;
 }
+
+
 #contact ul{
     padding:0;
     list-style: none;

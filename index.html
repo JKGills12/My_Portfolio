@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jennie Khann's Portfolio</title>
 
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
     <!-- LOCAL CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -14,6 +17,8 @@
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,700i&display=swap" rel="stylesheet">
 
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/2a5678a8d1.js"></script>
 </head>
 
 <body>
@@ -32,33 +37,57 @@
             a little more bang to the sites sure does show how much it as evolved over time. Now come present time and
             am looking for a career change. So I thought, why not go back into something I was passionate about when I
             was younger? So here I am! </p>
-            <br>
+        <br>
         <p>I am currently a student at the UW Triology Bootcamp in a 6 months program for Full-Stack Web Development.
             Within the last 3 months, I have learned an abundance of topics from: HTML/CSS, JavaScript/jQuery/AJAX/JSON,
             APIs, Firebase, and now Node.
             <br>
             Here, you will find a few of my work that I have done during my course of study. </p>
-            <br>
+        <br>
 
-            <h1>Projects</h1>
-            <br>
-            <ul>
-                <li><img class="friendsImg" src="assets/images/friendsTrivia.JPG" alt="" srcset=""></li>
-                <li> <a href="https://jkgills12.github.io/TriviaGame/">Friend's Trivia</a></li>
-                <li><a href="https://github.com/JKGills12/TriviaGame.git">Link to code</a></li>
-                <br>
-                <li><img class="gemImg" src="assets/images/gemCounter.JPG" alt="" srcset=""></li>
-                <li><a href="https://jkgills12.github.io/unit-4-game/">Gem Counter</a> </li>
-                <li><a href="https://github.com/JKGills12/unit-4-game.git">Link to code</a></li>
-                <br>
-                <li><img class="plateMateImg" src="assets/images/plateMate.JPG" alt="" srcset=""></li>
-                <li><a href="https://edepaolo.github.io/project-1/">PlateMate</a> </li>
-                <li><a href="https://github.com/edepaolo/project-1.git">Link to code</a></li>
-                <br>
-                <li><img class="trainImg" src="assets/images/train.JPG" alt=""></li>
-                <li><a href="https://jkgills12.github.io/Train-Schedule/">Train Schedule</a></li>
-                <li><a href="https://github.com/JKGills12/Train-Schedule.git">Link to code</a></li>
-            </ul>
+        <a href="https://drive.google.com/open?id=1w80b4Gxu1K6fAjIhYFS7AOqWRIEDTsEu" target="_blank">Resume</a>
+
+
+        <h1>Projects</h1>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img class="friendsImg" src="assets/images/friendsTrivia.JPG" alt="" srcset="">
+                    <br>
+                    <a href="https://jkgills12.github.io/TriviaGame/">Friend's Trivia</a>
+                    <br>
+                    <a href="https://github.com/JKGills12/TriviaGame.git">Link to code</a>
+                    <br>
+                </div>
+                <div class="col">
+                    <img class="gemImg" src="assets/images/gemCounter.JPG" alt="" srcset="">
+                    <br>
+                    <a href="https://jkgills12.github.io/unit-4-game/">Gem Counter</a>
+                    <br>
+                    <a href="https://github.com/JKGills12/unit-4-game.git">Link to code</a>
+                    <br>
+                </div>
+                <div class="w-100"></div>
+                <div class="col">
+                    <img class="plateMateImg" src="assets/images/plateMate.JPG" alt="" srcset="">
+                    <br>
+                    <a href="https://edepaolo.github.io/project-1/">PlateMate</a>
+                    <br>
+                    <a href="https://github.com/edepaolo/project-1.git">Link to code</a>
+                    <br>
+                </div>
+                <div class="col">
+                    <img class="trainImg" src="assets/images/train.JPG" alt="">
+                    <br>
+                    <a href="https://jkgills12.github.io/Train-Schedule/">Train Schedule</a>
+                    <br>
+                    <a href="https://github.com/JKGills12/Train-Schedule.git">Link to code</a>
+                </div>
+            </div>
+        </div>
+
         <nav id="pageHeader">
             <div class="container">
                 <h1>Contact</h1>
@@ -67,45 +96,33 @@
         <nav id="contact">
             <div class="container">
                 <ul>
-                    <li><a href="jkgills12@gmail.com">Email me</a></li>
-                    <li><a href="https://github.com/JKGills12" target="_blank">GitHub</a></li>
-                    <li><a href="www.linkedin.com/in/jennie-k-24788534">LinkedIn</a></li>
+                    <li><a href="mailto:jkgills12@gmail.com"><i class="fas fa-envelope-square"></i>Email me</a></li>
+                    <li><i class="fas fa-mobile-alt"></i><a href="tel:+206-356-7575"></a>206-356-7575</li>
                 </ul>
             </div>
         </nav>
-        <nav id="msg">
-            <div class="container">
-                <p>Feel free to leave me a comment below or email me above. Also, feel free to check out my GitHub for
-                    my projects!</p>
-            </div>
-        </nav>
-        <form class="my-form">
-            <div class="container">
-                <label>Name: </label>
-                <input type="text" name="name">
-            </div>
-            <div class="container">
-                <label>Email: </label>
-                <input type="text" name="Email">
-            </div>
-            <div class="container">
-                <label>Message: </label>
-                <textarea type="message"></textarea>
-            </div>
 
-            <nav id="button">
-                <div class="container">
-                    <input class="button" type="submit" value="Submit" name="">
-                </div>
-            </nav>
-            <!--
-                    <input class="button" type="submit" value="Submit" name=""> -->
-        </form>
 
         <footer id="main-footer">
+            <a href="https://github.com/JKGills12" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/jennie-k-24788534" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
             <p>Copyright @2019; Jennie Khann</p>
         </footer>
     </div>
+
+    <!-- FIREBASE SCRIPT -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script> -->
+
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="assets/javascript/portfolio.js"></script>
 </body>
 
 </html>
