@@ -89,3 +89,25 @@ h3 {
     text-align: center;
     clear: both;
 }
+
+@media (min-width: 300px){
+    .container{
+      grid-template-columns: auto 1fr;
+      grid-template-rows: auto 1fr auto;
+      grid-template-areas:
+        "advert header"
+        "advert content"
+        "advert footer";
+    }
+  }
+  
+  @media (min-width: 400px){
+    .wrapper, .container, #main-footer{
+    
+      grid-template-areas:
+        "banner"
+        "project"
+        "contact"
+        "footer";
+    }
+  }
