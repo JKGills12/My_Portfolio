@@ -17,6 +17,7 @@ body{
 
 .navbar {
     opacity: 0.5;
+    font-weight: bold;
 }
 #banner{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(231, 224, 224, 0.5)), url(../images/coding.jpeg);
