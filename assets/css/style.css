@@ -15,6 +15,9 @@ body{
     background-size: cover;
 }
 
+.navbar {
+    opacity: 0.5;
+}
 #banner{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(231, 224, 224, 0.5)), url(../images/coding.jpeg);
     height: 100%;
@@ -32,20 +35,24 @@ body{
     box-shadow: 0 8px 8px 0;
 }
 
+#aboutMe {
+    text-align: center;
+    padding: 20px;
+    padding-top: 80px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
 h1{
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif, italic;
     font-weight: bold;
     padding-bottom:20px;
+    padding-top: 80px;
     line-height: 49px;
     text-align: center;
     border-bottom: 3px solid;
-}
-
-h3 {
-    font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
 }
 
 .friendsImg, .gemImg, .plateMateImg, .trainImg {
@@ -60,25 +67,9 @@ h3 {
     text-align: center;
 }
 
-#msg{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.my-form{
-    padding:20px;
-}
-
-.my-form .form-group{
-    padding-bottom:15px;
-}
-
-.my-form label{
-    display: block;
-}
-
-.my-form input[type="text"], .my-form textarea{
-    padding:8px;
-    width:100%;
+.project-container {
+    justify-content: center;
+    padding: 80px;
 }
 
 #main-footer{
@@ -90,24 +81,33 @@ h3 {
     clear: both;
 }
 
-@media (min-width: 300px){
-    .container{
-      grid-template-columns: auto 1fr;
-      grid-template-rows: auto 1fr auto;
-      grid-template-areas:
-        "advert header"
-        "advert content"
-        "advert footer";
+
+/* Extra small devices (portrait phones, less than 576px) */
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) and (min-width: 576px) { 
+    .body-container {
+        width: 100%
+    }
+
+  }
+ 
+ /* Medium devices (tablets, 768px and up) */
+ @media (max-width: 768px) and (min-width: 576px) { 
+    .body-container {
+        width: 100%
     }
   }
-  
-  @media (min-width: 400px){
-    .wrapper, .container, #main-footer{
-    
-      grid-template-areas:
-        "banner"
-        "project"
-        "contact"
-        "footer";
+ 
+/* Large devices (desktops, 992px and up) */
+ @media (max-width: 992px) and (min-width: 576px) { 
+    .body-container {
+        width: 100%
+    }
+  }
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+ @media (max-width: 1200px) and (min-width: 576px) { 
+    .body-container {
+        width: 100%
     }
   }

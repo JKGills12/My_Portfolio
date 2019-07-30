@@ -10,6 +10,17 @@
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
     <!-- LOCAL CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -22,107 +33,130 @@
 </head>
 
 <body>
-    <div id="banner"></div>
-    <div class="wrapper">
-        <h1>Welcome to my Portfolio!</h1>
-        <br>
-        <img class=profileImg src="assets/images/hiking.jpg" alt="hiking rattlesnack ledge">
-        <h3>About Me</h3>
-        <p>Let me give you some information about my background. Eversince I was a kid, I was always fascinated with
-            technology! It was so interesting to be able to grow up in a time where we first were introduced to the
-            world wide web! How fascinating was it to see you can be connected to the world via a computer! To be able
-            to go the web and search on a topic and get results instantly sure was amazing! As I got older, I was so
-            intrigued with how web sites were build and so I learned the basic tags for building websites. Looking back
-            at how "plain" the webpages were back then, compared to now with all the JavaScript and everything that adds
-            a little more bang to the sites sure does show how much it as evolved over time. Now come present time and
-            am looking for a career change. So I thought, why not go back into something I was passionate about when I
-            was younger? So here I am! </p>
-        <br>
-        <p>I am currently a student at the UW Triology Bootcamp in a 6 months program for Full-Stack Web Development.
-            Within the last 3 months, I have learned an abundance of topics from: HTML/CSS, JavaScript/jQuery/AJAX/JSON,
-            APIs, Firebase, and now Node.
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span><!--hamburger button-->
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="body-container">
+        <div id="banner"></div>
+        <div class="wrapper">
+            <h1 id="home">Welcome to my Portfolio!</h1>
             <br>
-            Here, you will find a few of my work that I have done during my course of study. </p>
-        <br>
+            <img class=profileImg src="assets/images/hiking.jpg" alt="hiking rattlesnack ledge">
 
-        <a href="https://drive.google.com/open?id=1w80b4Gxu1K6fAjIhYFS7AOqWRIEDTsEu" target="_blank">Resume</a>
+            <!-- ABOUT ME -->
+            <h3 id="aboutMe">About Me</h3>
+            <p>Let me give you some information about my background. Eversince I was a kid, I was always fascinated with
+                technology! It was so interesting to be able to grow up in a time where we first were introduced to the
+                world wide web! How fascinating was it to see you can be connected to the world via a computer! To be
+                able
+                to go the web and search on a topic and get results instantly sure was amazing! As I got older, I was so
+                intrigued with how web sites were build and so I learned the basic tags for building websites. Looking
+                back
+                at how "plain" the webpages were back then, compared to now with all the JavaScript and everything that
+                adds
+                a little more bang to the sites sure does show how much it as evolved over time. Now come present time
+                and
+                am looking for a career change. So I thought, why not go back into something I was passionate about when
+                I
+                was younger? So here I am! </p>
+            <br>
+            <p>I am currently a student at the UW Triology Bootcamp in a 6 months program for Full-Stack Web
+                Development.
+                Within the last 3 months, I have learned an abundance of topics from: HTML/CSS,
+                JavaScript/jQuery/AJAX/JSON,
+                APIs, Firebase, and now Node.
+                <br>
+                Here, you will find a few of my work that I have done during my course of study. </p>
+            <br>
 
+            <a href="https://drive.google.com/open?id=1w80b4Gxu1K6fAjIhYFS7AOqWRIEDTsEu" target="_blank">Resume</a>
 
-        <h1>Projects</h1>
-        <br>
+            <!-- PROJECTS -->
+            <h1 id="projects">Projects</h1>
+            <br>
 
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img class="friendsImg" src="assets/images/friendsTrivia.JPG" alt="" srcset="">
-                    <br>
-                    <a href="https://jkgills12.github.io/TriviaGame/">Friend's Trivia</a>
-                    <br>
-                    <a href="https://github.com/JKGills12/TriviaGame.git">Link to code</a>
-                    <br>
-                </div>
-                <div class="col">
-                    <img class="gemImg" src="assets/images/gemCounter.JPG" alt="" srcset="">
-                    <br>
-                    <a href="https://jkgills12.github.io/unit-4-game/">Gem Counter</a>
-                    <br>
-                    <a href="https://github.com/JKGills12/unit-4-game.git">Link to code</a>
-                    <br>
-                </div>
-                <div class="w-100"></div>
-                <div class="col">
-                    <img class="plateMateImg" src="assets/images/plateMate.JPG" alt="" srcset="">
-                    <br>
-                    <a href="https://edepaolo.github.io/project-1/">PlateMate</a>
-                    <br>
-                    <a href="https://github.com/edepaolo/project-1.git">Link to code</a>
-                    <br>
-                </div>
-                <div class="col">
-                    <img class="trainImg" src="assets/images/train.JPG" alt="">
-                    <br>
-                    <a href="https://jkgills12.github.io/Train-Schedule/">Train Schedule</a>
-                    <br>
-                    <a href="https://github.com/JKGills12/Train-Schedule.git">Link to code</a>
+            <div class="project-container">
+                <div class="row">
+                    <div class="col">
+                        <img class="friendsImg" src="assets/images/friendsTrivia.JPG" alt="" srcset="">
+                        <br>
+                        <a href="https://jkgills12.github.io/TriviaGame/">Friend's Trivia</a>
+                        <br>
+                        <a href="https://github.com/JKGills12/TriviaGame.git">Link to code</a>
+                        <br>
+                    </div>
+                    <div class="col">
+                        <img class="gemImg" src="assets/images/gemCounter.JPG" alt="" srcset="">
+                        <br>
+                        <a href="https://jkgills12.github.io/unit-4-game/">Gem Counter</a>
+                        <br>
+                        <a href="https://github.com/JKGills12/unit-4-game.git">Link to code</a>
+                        <br>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col">
+                        <img class="plateMateImg" src="assets/images/plateMate.JPG" alt="" srcset="">
+                        <br>
+                        <a href="https://edepaolo.github.io/project-1/">PlateMate</a>
+                        <br>
+                        <a href="https://github.com/edepaolo/project-1.git">Link to code</a>
+                        <br>
+                    </div>
+                    <div class="col">
+                        <img class="trainImg" src="assets/images/train.JPG" alt="">
+                        <br>
+                        <a href="https://jkgills12.github.io/Train-Schedule/">Train Schedule</a>
+                        <br>
+                        <a href="https://github.com/JKGills12/Train-Schedule.git">Link to code</a>
+                    </div>
                 </div>
             </div>
+            <!-- CONTACT -->
+            <nav id="pageHeader">
+                <div class="container">
+                    <h1 id="contact">Contact</h1>
+                </div>
+            </nav>
+            <nav id="contact">
+                <div class="container">
+                    <ul>
+                        <li><a href="mailto:jkgills12@gmail.com"><i class="fas fa-envelope-square"></i>Email me</a></li>
+                        <li><i class="fas fa-mobile-alt"></i><a href="tel:+206-356-7575"></a>206-356-7575</li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- FOOTER -->
+            <footer id="main-footer">
+                <a href="https://github.com/JKGills12" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/jennie-k-24788534" target="_blank"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                <p>Copyright @2019; Jennie Khann</p>
+            </footer>
         </div>
-
-        <nav id="pageHeader">
-            <div class="container">
-                <h1>Contact</h1>
-            </div>
-        </nav>
-        <nav id="contact">
-            <div class="container">
-                <ul>
-                    <li><a href="mailto:jkgills12@gmail.com"><i class="fas fa-envelope-square"></i>Email me</a></li>
-                    <li><i class="fas fa-mobile-alt"></i><a href="tel:+206-356-7575"></a>206-356-7575</li>
-                </ul>
-            </div>
-        </nav>
-
-
-        <footer id="main-footer">
-            <a href="https://github.com/JKGills12" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/jennie-k-24788534" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-            <p>Copyright @2019; Jennie Khann</p>
-        </footer>
     </div>
 
-    <!-- FIREBASE SCRIPT -->
-    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
-
-    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
-    <!-- <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script> -->
-
-    <!-- BOOTSTRAP SCRIPT -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script src="assets/javascript/portfolio.js"></script>
 </body>
 
 </html>
