@@ -56,7 +56,7 @@ h1{
     border-bottom: 3px solid;
 }
 
-.friendsImg, .gemImg, .plateMateImg, .trainImg {
+.friendsImg, .gemImg, .plateMateImg, .trainImg, .liriImg{
     width: 350px;
     height: 275px;
 }
@@ -85,7 +85,7 @@ h1{
 
 /* Extra small devices (portrait phones, less than 576px) */
  /* Small devices (landscape phones, 576px and up) */
- @media (max-width: 576px) and (min-width: 576px) { 
+ @media (max-width: 576px) { 
     .body-container {
         width: 100%
     }
@@ -93,21 +93,21 @@ h1{
   }
  
  /* Medium devices (tablets, 768px and up) */
- @media (max-width: 768px) and (min-width: 576px) { 
+ @media (max-width: 768px) { 
     .body-container {
         width: 100%
     }
   }
  
 /* Large devices (desktops, 992px and up) */
- @media (max-width: 992px) and (min-width: 576px) { 
+ @media (max-width: 992px) { 
     .body-container {
         width: 100%
     }
   }
  
 /* Extra large devices (large desktops, 1200px and up) */
- @media (max-width: 1200px) and (min-width: 576px) { 
+ @media (max-width: 1200px) { 
     .body-container {
         width: 100%
     }
