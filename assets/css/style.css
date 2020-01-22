@@ -1,123 +1,135 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #f4f4f4;
-    color: #555;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height:32px;
-    width:960px;
-    margin-left:225px;
-    margin:0 auto;
-    background: url(../images/Zircon.jpg);
-    background-size: cover;
+body {
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  width: 960px;
+  margin-left: 225px;
+  margin: 0 auto;
+  background: url(../images/Zircon.jpg);
+  background-size: cover;
 }
 
 .navbar {
-    opacity: 0.5;
-    font-weight: bold;
+  opacity: 0.5;
+  font-weight: bold;
 }
-#banner{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(231, 224, 224, 0.5)), url(../images/coding.jpeg);
-    height: 100%;
-    padding: 80px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+#banner {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(231, 224, 224, 0.5)
+    ),
+    url(../images/coding.jpeg);
+  height: 100%;
+  padding: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .profileImg {
-    width: 275px; 
-    height: 325px;
-    border-radius: 50%;
-    box-shadow: 0 8px 8px 0;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+  width: 275px;
+  height: 325px;
+  border-radius: 50%;
+  box-shadow: 0 8px 8px 0;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#aboutMe {
-    text-align: center;
-    padding: 20px;
-    padding-top: 80px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
+#headers {
+  text-align: center;
+  padding: 20px;
+  padding-top: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
 }
 
-h1{
-    font-size: 30px;
-    font-family: 'Ubuntu', sans-serif, italic;
-    font-weight: bold;
-    padding-bottom:20px;
-    padding-top: 80px;
-    line-height: 49px;
-    text-align: center;
-    border-bottom: 3px solid;
+#icons {
+  size: 125px;
 }
 
-.friendsImg, .gemImg, .plateMateImg, .trainImg, .liriImg, .bamazonImg, .friendImg, .pnwBeakImg{
-    width: 350px;
-    height: 275px;
+h1 {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif, italic;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 80px;
+  line-height: 49px;
+  text-align: center;
+  border-bottom: 3px solid;
 }
 
+.friendsImg,
+.gemImg,
+.plateMateImg,
+.trainImg,
+.liriImg,
+.bamazonImg,
+.friendImg,
+.pnwBeakImg {
+  width: 350px;
+  height: 275px;
+}
 
-#contact ul{
-    padding:0;
-    list-style: none;
-    text-align: center;
+#contact ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
 
 .project-container {
-    justify-content: center;
-    padding: 55px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+  justify-content: center;
+  padding: 55px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#main-footer{
-    margin: 100px 0 0 0;
-    padding:20px;
-    background:#333;
-    color:#fff;
-    text-align: center;
-    clear: both;
+#main-footer {
+  margin: 100px 0 0 0;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  clear: both;
 }
-
 
 /* Extra small devices (portrait phones, less than 576px) */
- /* Small devices (landscape phones, 576px and up) */
- @media (max-width: 576px) { 
-    body {
-        width: 90%
-    }
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  body {
+    width: 90%;
+  }
+}
 
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  body {
+    width: 90%;
   }
- 
- /* Medium devices (tablets, 768px and up) */
- @media (max-width: 768px) { 
-    body {
-        width: 90%
-    }
-  }
- 
+}
+
 /* Large devices (desktops, 992px and up) */
- @media (max-width: 992px) { 
-    body {
-        width: 90%
-    }
+@media (max-width: 992px) {
+  body {
+    width: 90%;
   }
- 
+}
+
 /* Extra large devices (large desktops, 1200px and up) */
- @media (max-width: 1200px) { 
-    body {
-        width: 90%
-    }
+@media (max-width: 1200px) {
+  body {
+    width: 90%;
   }
+}
