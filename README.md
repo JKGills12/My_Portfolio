@@ -1,7 +1,6 @@
 # My Portfolio
 
-This portofolio was created by using HTML/CSS and Bootstrap.
-It is a single page site that contains a little section about me, skills, and a link to my resume; followed by a few projects I have worked on and the links to my github, Linkedin and section for guests to contact me via email or phone.
+This portofolio was created by using HTML/CSS and Bootstrap and deployed on GitHub Pages. It is a single page site that contains a little section about me, skills, and a link to my resume; followed by a few projects I have worked on and the links to my github, Linkedin and section for guests to contact me via email or phone.
 
 ![screenshot](/assets/images/portfolio-screenshot.jpg)
 
