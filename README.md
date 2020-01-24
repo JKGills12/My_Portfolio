@@ -1,6 +1,7 @@
-# My_Portfolio
+# My Portfolio
 
-Recreated my portfolio to be a single page site to contain a little section about me, with a link to my resume; followed by my lists of a few projects and the links to github, linkedin and section for guests to contact me via email or phone.
+This portofolio was created by using HTML/CSS and Bootstrap.
+It is a single page site that contains a little section about me, skills, and a link to my resume; followed by a few projects I have worked on and the links to my github, Linkedin and section for guests to contact me via email or phone.
 
 ![screenshot](/assets/images/portfolio-screenshot.jpg)
 
